@@ -2,8 +2,7 @@
 (𝑎+𝑏)^2=𝑎^2+𝑏^2+2𝑎𝑏:'''
 def calculate_square(a, b):
     return a**2 + b**2 + 2 * a * b
-
-# Example usage
+    
 a = int(input("Enter the value of a: "))
 b = int(input("Enter the value of b: "))
 result = calculate_square(a, b)
